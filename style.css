@@ -1,0 +1,138 @@
+body {
+  background-image: linear-gradient(to bottom right, rgba(207, 207, 207, 0.854), rgb(31, 31, 31));
+  font-family: 'Quicksand', sans-serif;
+  color: #00384d;
+  font-size 30px;
+  line-height: 150%;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font-size: 40px;
+  font-family: 'Zen Antique', serif;
+  line-height: 150%;
+  text-align: center;
+}
+
+.pic-1 {
+  margin: 35px 0px;
+  text-align: center;
+}
+
+.pic-2 {
+  margin-top: 200px;
+}
+
+.text-1 {
+  margin: -97px 0px;
+  margin-left: 256px;
+  z-index: 5;
+  color: white;
+  font-size: 45px;
+  line-height: 150%;
+
+}
+
+.text-2 {
+  margin: -145px 0px;
+  margin-left: -381px;
+  z-index: 5;
+  color: rgb(255, 255, 255);
+  font-size: 26px;
+  line-height: 150%;
+}
+
+.title {
+  text-align: center;
+}
+
+h2, h3, h4 {
+  color: black;
+  font-family: 'Zen Antique', serif;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.button-call-me {
+  margin-top: 270;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: transparent;
+  border: none;
+  color: rgb(28, 28, 28);
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Zen Antique', serif;
+  line-height: 150%;
+}
+
+.button-write-me {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  transition: 6s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: transparent;
+  border: none;
+  color: rgb(23, 23, 23);
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Zen Antique', serif;
+  line-height: 150%;
+}
+
+.button-call-me:hover {
+  transition: all 6s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Zen Antique', serif;
+  line-height: 150%;
+}
+
+.button-write-me:hover {
+  transition: all 6s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Zen Antique', serif;
+  line-height: 150%;
+}
+
+.button-call-me:hover span {
+  display:none;
+}
+
+.button-call-me:hover:before {
+  content: "+31 622 0380 21";
+}
+
+.button-write-me:hover span {
+  display:none;
+}
+
+.button-write-me:hover:before {
+  content: "freyaheaton@fhcopy.nl";
+}
